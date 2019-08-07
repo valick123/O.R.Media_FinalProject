@@ -1,0 +1,33 @@
+.catalog {
+    &__inner {
+        height: 100%;
+    }
+
+    &__catigories {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+
+        &__item {
+            padding: 40px 20px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: $border-radius;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include mobile {
+        &__catigories {
+            grid-template-columns: 1fr;
+
+            &__item {}
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import "libs/normalize";
+@import 'libs/grid.scss';
+@import "config/fonts";
+@import "config/responsive";
+@import "config/variables";
+@import "common";
+@import "layout/footer";
+@import "layout/header";
+@import 'blocks/adSlider.scss';
+@import 'pages/homePage.scss';
+@import 'pages/logInPage.scss';
+@import 'pages/signUpPage.scss';
+@import 'pages/catalogPage.scss';
+@import 'components/productCard.scss';
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";

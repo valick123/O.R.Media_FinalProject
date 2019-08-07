@@ -1,0 +1,371 @@
+{
+  "catalog": [
+    {
+      "category": "phones",
+      "manufacturer": "samsung",
+      "model": "A70",
+      "year": 2019,
+      "price": 750,
+      "RAM": "6GB",
+      "CPU": "snapdragon",
+      "width": "50mm",
+      "height": "140mm",
+      "thickness": "9mm",
+      "color": "white",
+      "OS": "Android",
+      "OSVersion": "9.0",
+      "imgURL": "./img/samsungA70.png",
+      "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка использовало правилами которое за. Себя, заголовок подзаголовок. Обеспечивает меня предложения не до бросил эта.",
+      "id": 1
+    },
+    {
+      "category": "phones",
+      "manufacturer": "sony",
+      "model": "experia",
+      "year": 2019,
+      "price": 550,
+      "RAM": "4GB",
+      "CPU": "snapdragon",
+      "width": "65mm",
+      "height": "155mm",
+      "OS": "Android",
+      "thickness": "9mm",
+      "color": "white",
+      "OSVersion": "9.0",
+      "imgURL": "./img/sonyExpiria.png",
+      "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка использовало правилами которое за. Себя, заголовок подзаголовок. Обеспечивает меня предложения не до бросил эта.",
+      "id": 2
+    },
+    {
+      "category": "tablets",
+      "manufacturer": "nexus",
+      "model": "nexus7(2013)",
+      "year": 2013,
+      "price": 400,
+      "RAM": "2GB",
+      "CPU": "snapdragon",
+      "width": "150mm",
+      "height": "210mm",
+      "OS": "Android",
+      "OSVersion": "6.0",
+      "imgURL": "./img/nexus7(2013).png",
+      "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка использовало правилами которое за. Себя, заголовок подзаголовок. Обеспечивает меня предложения не до бросил эта.",
+      "id": 3
+    },
+    {
+      "category": "tablets",
+      "manufacturer": "nexus",
+      "model": "nexus7(2010)",
+      "year": 2010,
+      "price": 350,
+      "RAM": "1GB",
+      "CPU": "snapdragon",
+      "width": "150mm",
+      "height": "210mm",
+      "OS": "Android",
+      "OSVersion": "5.0",
+      "imgURL": "./img/nexus7(2010).png",
+      "description": "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка использовало правилами которое за. Себя, заголовок подзаголовок. Обеспечивает меня предложения не до бросил эта.",
+      "id": 4
+    }
+  ],
+  "catalogCategories": [
+    "phones",
+    "tablets",
+    "laptops",
+    "headPhones",
+    "cases",
+    "chargers",
+    "cansoles"
+  ],
+  "users": [
+    {
+      "isAdmin": true,
+      "logIn": "admin",
+      "password": "admin",
+      "manufacturer": "vlick",
+      "Surmanufacturer": "waevoda",
+      "email": "valentin3840@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "",
+      "surname": "",
+      "email": "",
+      "passwordFirst": "",
+      "passwordSecond": "",
+      "gender": "male",
+      "country": "",
+      "city": "",
+      "isAdmin": false,
+      "id": 2
+    }
+  ],
+  "settings": [
+    {
+      "category": "phones",
+      "fieldSet": [
+        {
+          "fieldName": "manufacturer",
+          "fieldType": "select",
+          "value": [
+            "samsung",
+            "sony"
+          ]
+        },
+        {
+          "fieldName": "price",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "width",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "height",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "thickness",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "color",
+          "fieldType": "select",
+          "value": [
+            "",
+            "white",
+            "black",
+            "red",
+            "green"
+          ]
+        },
+        {
+          "fieldName": "OS",
+          "fieldType": "select",
+          "value": [
+            "Android",
+            "IOS"
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "category": "tablets",
+      "fieldSet": [
+        {
+          "fieldName": "manufacturer",
+          "fieldType": "select",
+          "value": [
+            "nexus"
+          ]
+        },
+        {
+          "fieldName": "price",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "width",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "height",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "thickness",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "color",
+          "fieldType": "select",
+          "value": [
+            "",
+            "white",
+            "black",
+            "red",
+            "green"
+          ]
+        },
+        {
+          "fieldName": "OS",
+          "fieldType": "select",
+          "value": [
+            "Android",
+            "IOS"
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "category": "laptops",
+      "fieldSet": [
+        {
+          "fieldName": "manufacturer",
+          "fieldType": "select",
+          "value": [
+            "samsung",
+            "sony"
+          ]
+        },
+        {
+          "fieldName": "price",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "width",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "height",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "thickness",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "color",
+          "fieldType": "select",
+          "value": [
+            "white",
+            "black",
+            "red",
+            "green"
+          ]
+        },
+        {
+          "fieldName": "OS",
+          "fieldType": "select",
+          "value": [
+            "Android",
+            "IOS"
+          ]
+        }
+      ],
+      "id": 3
+    },
+    {
+      "category": "headPhones",
+      "color": "color",
+      "prise": "prise",
+      "width": "width",
+      "height": "heaight",
+      "deep": "deep",
+      "id": 4
+    },
+    {
+      "category": "cases",
+      "color": "color",
+      "prise": "prise",
+      "width": "width",
+      "height": "heaight",
+      "deep": "deep",
+      "id": 5
+    },
+    {
+      "category": "chargers",
+      "color": "color",
+      "prise": "prise",
+      "width": "width",
+      "height": "heaight",
+      "deep": "deep",
+      "id": 6
+    },
+    {
+      "category": "newProduct",
+      "fieldSet": [
+        {
+          "fieldName": "category",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "manufacturer",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "model",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "year",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "price",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "RAM",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "CPU",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "width",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "height",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "thickness",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "color",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "OS",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "OSVersion",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "imgURL",
+          "fieldType": "input",
+          "value": null
+        },
+        {
+          "fieldName": "description",
+          "fieldType": "input",
+          "value": null
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
