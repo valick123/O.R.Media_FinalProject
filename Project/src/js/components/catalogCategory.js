@@ -49,7 +49,7 @@ export class CatalogCategory extends React.Component {
             {this.props.catalogItems.length != 0 ? this.props.location.pathname === `/catalog/${this.props.match.params.category}` ? <main className='catalog main'>
                 <div className="catalog__inner">
                     <div className='container'>
-                        <h1>{this.props.match.params.category} </h1>
+                        <h1 className='blockTitle'>{this.props.match.params.category} </h1>
                         <div className='row'>
                             <div className='col-md-3'>
                                 {this.props.formSettings.fieldSet ? <CatalogForm formSettings={this.props.formSettings} getItems={this.props.getItems} /> : null}

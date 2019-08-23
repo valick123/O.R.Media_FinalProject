@@ -24,11 +24,11 @@ export class CatalogForm extends React.Component {
     renderFormFields = () => {
         const form = this.props.formSettings.fieldSet.map((item, index) => {
             return <React.Fragment key={index}>
-                <label htmlFor={item.fieldName} className='catalog__form__label'>{item.fieldName}:</label>
+                <label htmlFor={item.fieldName} className='form__label'>{item.fieldName}:</label>
                 {React.createElement(item.fieldType, {
                     id: item.fieldName,
                     name: item.fieldName,
-                    className: 'catalog__form__field'
+                    className: 'form__field'
                 }, item.fieldType == 'select' ? item.value.map((elem, index) => {
                     return <option key={index} value={elem}>{elem}</option>
                 }) : null)}
@@ -41,7 +41,7 @@ export class CatalogForm extends React.Component {
         return (
             <div className='catalog__form form' >
                 {this.renderFormFields()}
-                <button onClick={this.sendSearchRequest}>Search</button>
+                <button onClick={this.sendSearchRequest} className='btn btn-primary'>Search</button>
             </div>
         )
     }

@@ -14,7 +14,7 @@ export class SignUp extends React.Component {
 
             }
         })
-        formData.isAdmin=false
+        formData.isAdmin = false
         let xhr = new XMLHttpRequest();
         console.log(formData, JSON.stringify(formData))
         xhr.open("POST", 'http://localhost:3001/users', false);
@@ -43,8 +43,8 @@ export class SignUp extends React.Component {
                                 </select>
                                 <input name='country' type='text' placeholder='Country' className='signUpForm__field' />
                                 <input name='city' type='text' placeholder='City' className='signUpForm__field' />
-                                <button className='signUpForm__btn' onClick={this.createNewUser}>Sign Up</button>
-                                <button className='signUpForm__btn' >Reset</button>
+                                <button className='signUpForm__btn btn btn-primary' onClick={this.createNewUser}>Sign Up</button>
+                                <button className='signUpForm__btn btn btn-error' >Reset</button>
                             </div>
                         </div>
                     </div>

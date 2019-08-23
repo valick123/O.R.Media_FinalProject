@@ -14,7 +14,7 @@ export class LogIn extends React.Component {
                                     <input name='userName' type='text' placeholder='User Name' className='logInForm__field' />
                                     <input name='userName' type='password' placeholder='Password' className='logInForm__field' />
                                     <Link to='/login/fogotpassword' className='logInForm__link'>Fogot passsword?</Link>
-                                    <button className='logInForm__btn'>Log In</button>
+                                    <button className='logInForm__btn btn btn-primary'>Log In</button>
                                 </div>
                             </div>
                         </div>

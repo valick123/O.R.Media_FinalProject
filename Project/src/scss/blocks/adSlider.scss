@@ -1,12 +1,16 @@
  .adBaner {
      position: relative;
      margin-bottom: 10px;
+     box-shadow: $box-shadow;
+     border-radius: $border-radius;
+     background-color: $background-content;
+     padding: 5px;
 
      &__item {
 
          border-radius: $border-radius;
-         border: 2px solid black;
          padding: 10px;
+         background-color: $background-content;
      }
 
      & .slick-arrow {

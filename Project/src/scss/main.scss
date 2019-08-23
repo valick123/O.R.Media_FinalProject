@@ -11,6 +11,11 @@
 @import 'pages/logInPage.scss';
 @import 'pages/signUpPage.scss';
 @import 'pages/catalogPage.scss';
-@import 'components/productCard.scss';
+@import 'components/productList.scss';
+@import './components/productCardRow.scss';
+@import 'blocks/modalWindow.scss';
+@import './components/btn.scss';
+@import './blocks/form.scss';
+@import './blocks/adminInfo.scss';
 @import "~slick-carousel/slick/slick.scss";
 @import "~slick-carousel/slick/slick-theme.scss";

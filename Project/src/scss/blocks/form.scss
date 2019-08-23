@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: $box-shadow;
+    padding: 10px;
+    border-radius: $border-radius;
+    background-color: $background-content;
+
+    &__label {
+        font-weight: bold;
+        margin: 0;
+    }
+
+    &__field {
+        border: none;
+        border-radius: $border-radius;
+        padding: 3px;
+        margin-bottom: 10px;
+        box-shadow: $box-shadow;
+
+    }
+
+    @include mobile {
+        margin-bottom: 10px;
+    }
+}

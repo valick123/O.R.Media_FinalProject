@@ -26,7 +26,7 @@ export class Header extends React.Component {
                             <div className="col-md-5">
                                 <div className="search">
                                     <input className="search__field" placeholder='Search' ref={this.searchInput} />
-                                    <Link to='/result' className='search__btn' onClick={this.getSearchResult}>Search</Link>
+                                    <Link to='/result' className='search__btn btn-primary' onClick={this.getSearchResult}>Search</Link>
                                 </div>
 
                             </div>

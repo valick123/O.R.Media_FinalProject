@@ -21,7 +21,7 @@ export class SearchRusults extends React.Component {
         return <main className='main searchresult'>
             <div className="container">
                 <h1>result</h1>
-                <div className='resultList' onClick={this.addTobasketList}>
+                <div className='productList' onClick={this.addTobasketList}>
                     {this.props.searchResults.length ? this.renderReultList() : <h1>Nothing was found</h1>}
                 </div>
 

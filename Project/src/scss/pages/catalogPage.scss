@@ -11,17 +11,15 @@
         &__item {
             padding: 40px 20px;
             text-align: center;
-            border: 2px solid black;
+            box-shadow: $box-shadow;
             border-radius: $border-radius;
             text-decoration: none;
             text-transform: uppercase;
+            background-color: $background-content;
         }
     }
 
-    &__form {
-        display: flex;
-        flex-direction: column;
-    }
+
 
     @include mobile {
         &__catigories {

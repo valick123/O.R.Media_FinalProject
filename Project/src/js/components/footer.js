@@ -2,8 +2,9 @@ import React from 'react';
 export class Footer extends React.Component {
     render() {
         return <footer className='footer'>
-            <div className='footer__inner'>
-                <div className='container'>
+
+            <div className='container'>
+                <div className='footer__inner'>
                     <div className='row'>
                         <div className='col-md-10'>
                             <ul className='usefullInfo'>

@@ -21,9 +21,10 @@ import { getSearchResult } from '../actions/getSearchReult'
 import { getCatalogInfo } from '../actions/getCatalogSettings'
 import { addProductToCatalog } from '../actions/addProductToCatalog';
 import { deleteProductFromCatalog } from '../actions/deleteProductFromCatalog'
+import { editProductInCatalog } from '../actions/editProductInCatalog'
 class App extends React.Component {
     render() {
-        const { catalogData, getItemsList, addToBasketList, deleteFromBasketList, productPageInfo, getSearchResult, adminData, getCatalogInfo, addProductToCatalog, deleteProductFromCatalog } = this.props
+        const { catalogData, getItemsList, addToBasketList, deleteFromBasketList, productPageInfo, getSearchResult, adminData, getCatalogInfo, addProductToCatalog, deleteProductFromCatalog, editProductInCatalog } = this.props
         return <React.Fragment>
             <Header searchResult={getSearchResult} />
             <Switch>
@@ -33,7 +34,7 @@ class App extends React.Component {
                 <Route path='/login' component={LogIn} />
                 <Route path='/signup' component={SignUp} />
                 <Route path='/result' render={(props) => <SearchRusults {...props} searchResults={catalogData.searchResult} addToBasket={addToBasketList} />} />
-                <Route path='/admin' render={(props) => <AdminPage {...props} adminInfo={adminData} getProductList={getCatalogInfo} addToCatalog={addProductToCatalog} deleteProduct={deleteProductFromCatalog} />} />
+                <Route path='/admin' render={(props) => <AdminPage {...props} adminInfo={adminData} getProductList={getCatalogInfo} addToCatalog={addProductToCatalog} deleteProduct={deleteProductFromCatalog} editProduct={editProductInCatalog} />} />
                 <Route component={NotFound} />
             </Switch>
 
@@ -58,7 +59,8 @@ const mapDispatchToProps = dispatch => {
         getSearchResult: (result) => dispatch(getSearchResult(result)),
         getCatalogInfo: (list, categories, settings) => dispatch(getCatalogInfo(list, categories, settings)),
         addProductToCatalog: (newProduct) => dispatch(addProductToCatalog(newProduct)),
-        deleteProductFromCatalog: (productId) => dispatch(deleteProductFromCatalog(productId))
+        deleteProductFromCatalog: (productId) => dispatch(deleteProductFromCatalog(productId)),
+        editProductInCatalog: (productId, newProductInfo) => dispatch(editProductInCatalog(productId, newProductInfo))
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App)

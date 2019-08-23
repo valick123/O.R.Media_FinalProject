@@ -26,7 +26,7 @@ export class Basket extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <h1>Basket</h1>
+                    <h1 className='blockTitle'>Basket</h1>
                     <div className='basketList productList' onClick={this.deleteProduct}>
                         {this.props.basketList.length ? this.renderBasketList() : <h1>basket is empty</h1>}
                     </div>

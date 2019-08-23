@@ -1,0 +1,14 @@
+.productList {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+    @include tabletAndMobile {
+        &__inner {
+            flex-direction: column;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    }
+
+}

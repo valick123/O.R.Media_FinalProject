@@ -33,7 +33,7 @@ export class ProductPage extends React.Component {
             <div className='productCard__info'>{this.props.selectedProduct.description}</div>
             <div className='productCard__price'>{this.props.selectedProduct.price}</div>
             <div className='productCard__controls'>
-                <button className='productCard__btn btn addBtn' data-id={this.props.selectedProduct.id}>Add to basket</button>
+                <button className='productCard__btn btn addBtn btn-success' data-id={this.props.selectedProduct.id}>Add to basket</button>
             </div>
         </React.Fragment>
 

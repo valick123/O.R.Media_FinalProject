@@ -1,0 +1,29 @@
+.btn {
+    display: block;
+    padding: 5px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: $border-radius;
+
+    color: $btn-text-primary-color;
+    box-shadow: $box-shadow;
+
+
+
+
+
+
+}
+
+.btn-primary {
+    background-color: $btn-primary-color;
+}
+
+.btn-success {
+    background-color: $btn-success-color;
+}
+
+.btn-error {
+
+    background-color: $btn-error-color;
+}

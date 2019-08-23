@@ -1,5 +1,9 @@
 .footer {
-    &__inner {}
+    &__inner {
+        border-radius: $border-radius;
+        padding: 5px;
+        background-color: $secondary-color;
+    }
 
     & .socialLinks {
         list-style: none;
@@ -10,9 +14,12 @@
         justify-content: space-between;
 
         &__item {
-            border: 2px solid black;
+            box-shadow: $box-shadow;
             border-radius: $border-radius;
             flex-grow: 1;
+            margin-bottom: 3px;
+            margin-left: 3px;
+            background-color: $background-content;
 
             &__link {
                 display: block;
@@ -32,9 +39,12 @@
 
         &__item {
             flex-grow: 1;
-            border: 2px solid black;
+            box-shadow: $box-shadow;
             border-radius: $border-radius;
             text-align: center;
+            margin-bottom: 3px;
+            margin-left: 3px;
+            background-color: $background-content;
 
             &__link {
                 display: block;

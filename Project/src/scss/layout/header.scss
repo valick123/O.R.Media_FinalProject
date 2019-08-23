@@ -5,6 +5,7 @@
         background-color: $main-color;
         border-bottom-left-radius: $border-radius;
         border-bottom-right-radius: $border-radius;
+        box-shadow: $box-shadow;
 
         & .logo {}
 
@@ -20,6 +21,8 @@
                 border-bottom-left-radius: $border-radius;
                 width: 100%;
                 padding: 3px 10px;
+                box-shadow: $box-shadow;
+
             }
 
             &__btn {
@@ -28,8 +31,9 @@
                 border: none;
                 border-top-right-radius: $border-radius;
                 border-bottom-right-radius: $border-radius;
-                background-color: gray;
                 color: #fff;
+                box-shadow: $box-shadow;
+
             }
         }
 
@@ -84,7 +88,7 @@
                 padding: 10px;
                 text-decoration: none;
                 text-transform: uppercase;
-                color: black;
+                color: rgb(255, 255, 255);
                 font-weight: bold;
             }
 

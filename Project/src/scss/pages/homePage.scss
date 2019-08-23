@@ -7,11 +7,12 @@
         grid-gap: 10px;
 
         &__item {
-            border: 2px solid black;
             margin-bottom: 10px;
             padding: 10px;
             border-radius: $border-radius;
             margin: 0;
+            background-color: $background-content;
+            box-shadow: $box-shadow;
 
             &:last-child {
                 margin-bottom: 0;
@@ -25,9 +26,10 @@
         grid-gap: 10px;
 
         &__item {
-            border: 2px solid black;
+            box-shadow: $box-shadow;
             border-radius: $border-radius;
             padding: 10px;
+            background-color: $background-content;
         }
     }
 

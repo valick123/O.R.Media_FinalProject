@@ -16,6 +16,13 @@ export const adminReducer = (state = initialState, action) => {
                 }
             })
             return { ...state, productList: [...state.productList] }
+        case 'EDIT_PRODUCT_IN_CATALOG':
+            state.productList.forEach((item, index) => {
+                if (item.id == action.payload.id) {
+                    state.productList.splice(index, 1, action.payload.info);
+                }
+            })
+            return { ...state, productList: [...state.productList] }
         default: return state
     }
 }

@@ -5,4 +5,11 @@ export const adaptiveMenu = () => {
 
         menu.classList.toggle('navList-active');
     })
+
+    menu.addEventListener('click', (e) => {
+        let target = e.target;
+        if (target.classList.contains('navList__link')) {
+            menu.classList.remove('navList-active')
+        }
+    })
 }
