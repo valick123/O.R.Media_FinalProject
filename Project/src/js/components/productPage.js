@@ -29,7 +29,9 @@ export class ProductPage extends React.Component {
     renderProductInfo() {
 
         return <React.Fragment key={this.props.selectedProduct.id} >
-            <div className='productCard__ico'>{this.props.selectedProduct.imgURL}</div>
+            <div className='productCard__ico'>
+                    <img src={this.props.selectedProduct.imgURL}/>
+            </div>
             <div className='productCard__info'>{this.props.selectedProduct.description}</div>
             <div className='productCard__price'>{this.props.selectedProduct.price}</div>
             <div className='productCard__controls'>
@@ -41,13 +43,13 @@ export class ProductPage extends React.Component {
     render() {
         return <React.Fragment>
             <main className="main productPage">
-                <div className="productPage__inner">
+                
                     <div className='container'>
 
-                        <div className='productPage__info' onClick={this.addTobasketList}>
+                        <div className='productPage__inner' onClick={this.addTobasketList}>
                             {this.renderProductInfo()}
                         </div>
-                    </div>
+                    
                 </div>
             </main>
         </React.Fragment>

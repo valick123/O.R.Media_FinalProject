@@ -1,0 +1,12 @@
+.productPage{
+    &__inner{           
+        background-color: $background-content;
+        border-radius: $border-radius;
+        padding: 10px;
+        display: flex;
+    }
+    &__ico{}
+    &__info{}
+    &__price{}
+    &__controls{}
+}

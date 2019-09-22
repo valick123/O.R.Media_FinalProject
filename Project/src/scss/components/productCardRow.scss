@@ -11,17 +11,21 @@
     }
 
     &__ico {
-        flex-basis: 15%;
+        flex-basis: 30%;
         padding: 10px;
+       & img{
+        max-width: 100%;
+        max-height: 100%;
+       }
     }
 
     &__info {
-        flex-basis: 65%;
+        flex-basis: 55%;
         padding: 10px;
     }
 
     &__price {
-        flex-basis: 10%;
+        flex-basis: 5%;
         padding: 10px;
     }
 

@@ -27,8 +27,6 @@ export class Catalog extends React.Component {
                                     <Link to='/catalog/laptops' className='catalog__catigories__item' >Laptops</Link>
                                     <Link to='/catalog/headPhones' className='catalog__catigories__item'>Headrhones</Link>
                                     <Link to='/catalog/cases' className='catalog__catigories__item'>Cases</Link>
-                                    <Link to='/catalog/chargers' className='catalog__catigories__item'>charger</Link>
-                                    <Link to='/catalog/cansoles' className='catalog__catigories__item' >Cansoles</Link>
                                 </div>
                             </div>
                         </div>

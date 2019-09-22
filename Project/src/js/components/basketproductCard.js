@@ -5,7 +5,9 @@ export class BasketProductCard extends React.Component {
         return (
             <div className='productCard'>
                 <div className='productCard__inner'>
-                    <div className='productCard__ico'>{this.props.info.imgURL}</div>
+                    <div className='productCard__ico'>
+                            <img src={this.props.info.imgURL}/>
+                    </div>
                     <div className='productCard__info'>{this.props.info.description}</div>
                     <div className='productCard__price'>{this.props.info.price}</div>
                     <div className='productCard__controls'>
